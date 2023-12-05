@@ -12,7 +12,7 @@
 }">
     <h1>Galerie</h1>
     <p>lorem⇥</p>
-    <div class="overlay">
+    <div class="overlay" x-show=" imageAffichee" @click="imageAffichee = null"  @keyup.escape.window="imageAffichee = null">
         <figure><img :src="imageAffichee"></figure>
     </div>
 </body>
