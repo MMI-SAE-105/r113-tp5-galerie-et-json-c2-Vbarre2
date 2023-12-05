@@ -7,25 +7,12 @@
 </head>
 <body>
     
-<ul x-data="{
-    données: [
-{
-    nom: 'vincent',
-    projet: 'Alpine.js',
-    url: 'https://alpinejs.dev/'
-},
-{
-    nom: 'stepahne',
-    projet: 'Tailwind CSS',
-    url: 'https://tailwindcss.com/''
-},
-{
-    nom: 'nathalie',
-    projet: 'Laravel',
-    url: 'https://laravel.com/''
-}
-}
-">
+    <ul x-data="{
+        async données() {
+            const resp = await fetch('data.json');
+            return await resp.json();
+            },
+        }">
 </ul>
 </body>
 </html>
