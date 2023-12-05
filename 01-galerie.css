@@ -37,3 +37,10 @@
     max-width: 100%;
     height: auto;
 }
+
+.style{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategrey;
+    background-color: antiquewhite;
+
+}
