@@ -27,3 +27,13 @@
     border-radius: 50%;
 }
 
+.overlay>figure {
+    margin: 0;
+    padding: 1rem;
+    border: 2px solid #fff;
+}
+
+.overlay>figure>img {
+    max-width: 100%;
+    height: auto;
+}
