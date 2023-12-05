@@ -10,3 +10,20 @@
     place-content: center;
 }
 
+.overlay::after {
+    content: "X";
+    color: #fff;
+    background-color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
